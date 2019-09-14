@@ -8,5 +8,8 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  mounted() {
+    process.env.NODE_ENV === "production" && this.$router.push("/"); //в dev ошибка (нужно для билда)
+  }
 }).$mount("#app");
