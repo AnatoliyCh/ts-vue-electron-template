@@ -34,16 +34,5 @@
     "typescript": "^3.4.3",
     "vue-cli-plugin-electron-builder": "^1.4.0",
     "vue-template-compiler": "^2.6.10"
-  },
-  "recommendations": [
-    "formulahendry.auto-close-tag",
-    "formulahendry.auto-rename-tag",
-    "dbaeumer.vscode-eslint",
-    "ecmel.vscode-html-css",
-    "zignd.html-css-class-completion",
-    "mrmlnc.vscode-scss",
-    "formulahendry.terminal",
-    "ms-vscode.vscode-typescript-tslint-plugin",
-    "octref.vetur"
-  ]
+  }
 }
